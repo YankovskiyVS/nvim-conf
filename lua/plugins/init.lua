@@ -280,19 +280,17 @@ return {
 	},
 
 	-- Floating terminal
+
 	{
 		"akinsho/toggleterm.nvim",
 		version = "*",
 		config = function()
 			require("toggleterm").setup({
-				open_mapping = [[<c-\>]],
-				direction = "float",
-				float_opts = { border = "curved" },
-				start_in_insert = true,
+				direction = "horizontal",
+				size = 15, -- height in lines
 			})
 		end,
 	},
-
 	-- Tabline / bufferline
 	{
 		"akinsho/bufferline.nvim",
@@ -356,6 +354,17 @@ return {
 			dashboard.section.footer.val = "Happy Hacking  󰊠"
 
 			alpha.setup(dashboard.opts)
+		end,
+	},
+	-- mini icons
+	{
+		"echasnovski/mini.icons",
+		version = "*", -- or false for main branch
+		config = function()
+			require("mini.icons").setup({
+				-- Optional: use ASCII if your terminal/font doesn’t support glyphs
+				-- style = "ascii",
+			})
 		end,
 	},
 }

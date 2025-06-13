@@ -17,7 +17,15 @@ map("n", "<leader><leader>", "<cmd>Telescope find_files<cr>", opts)
 map("n", "<leader>fg", "<cmd>Telescope live_grep<cr>", opts)
 map("n", "<leader>fb", "<cmd>Telescope buffers<cr>", opts)
 
+-- Grep in current file
+map("n", "<leader>fs", "<cmd>Telescope current_buffer_fuzzy_find<cr>", opts)
+
+-- Grep in working directory
+map("n", "<leader>/", "<cmd>Telescope live_grep<cr>", opts)
+
 -- Neo-tree
 map("n", "<leader>e", "<cmd>Neotree toggle<cr>", opts)
 
--- Harpoon (setup later)
+-- Terminal hotkey
+map("n", "<leader>t", "<cmd>ToggleTerm<cr>", opts)
+map("t", "<Esc>", [[<C-\><C-n>]], opts)
