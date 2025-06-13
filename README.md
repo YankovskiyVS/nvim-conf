@@ -1,6 +1,13 @@
+<<<<<<< HEAD
 # Hack-vim
 
 > A sleek, modern Neovim configuration tailored for backend developers. With smooth LSP, syntax highlighting, fuzzy finding, and project navigation, Hack-vim is built for hacking code efficiently and beautifully — powered by Lua.
+=======
+
+# Hack-vim
+
+> A sleek, modern Neovim configuration tailored for backend developers. With smooth LSP, syntax highlighting, fuzzy finding, and project navigation, Hack-vim is built for hacking code efficiently and beautifully — powered by Lua and infused with anime flair.
+>>>>>>> 10c8349 ([dev] add readme file)
 
 ---
 
@@ -87,6 +94,7 @@ Will be documented soon...
 
 ## 📸 Screenshots
 
+<<<<<<< HEAD
 ### 🧵 Dashboard Preview
 
 ![dashboard](./250613_18h12m02s_screenshot.png)
@@ -94,6 +102,9 @@ Will be documented soon...
 ### 🦀 Go Dev UX Example
 
 ![go dev](./250613_18h13m48s_screenshot.png)
+=======
+*coming soon*
+>>>>>>> 10c8349 ([dev] add readme file)
 
 ---
 
